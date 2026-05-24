@@ -19,6 +19,8 @@ dependencies {
     implementation("io.micronaut.serde:micronaut-serde-jackson")
     implementation("io.micronaut.views:micronaut-views-fieldset")
     implementation("io.micronaut.views:micronaut-views-thymeleaf")
+    implementation("io.micronaut.reactor:micronaut-reactor")
+    implementation("io.micronaut.reactor:micronaut-reactor-http-client")
     implementation("org.apache.logging.log4j:log4j-api")
     implementation(platform("org.apache.logging.log4j:log4j-bom:2.25.3"))
     compileOnly("io.micronaut:micronaut-http-client")
