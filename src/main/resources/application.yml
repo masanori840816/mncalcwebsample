@@ -1,3 +1,7 @@
 micronaut:
   application:
     name: mncalcwebsample
+  http:
+    client:
+      ssl:
+        insecure-trust-all-certificates: true
