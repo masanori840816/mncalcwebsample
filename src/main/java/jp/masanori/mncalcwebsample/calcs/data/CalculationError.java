@@ -7,25 +7,12 @@ import io.micronaut.serde.annotation.Serdeable;
 @Serdeable
 @Introspected
 public class CalculationError {
-    
-    @JsonProperty("Code")
-    public String Code;
     @JsonProperty("Message")
     public String message;
     @JsonProperty("Line")
     public int line;
     @JsonProperty("SheetName")
     public String sheetName;
-
-    @JsonProperty("Code")
-    public String getCode() {
-        return Code;
-    }
-
-    @JsonProperty("Code")
-    public void setCode(String code) {
-        this.Code = code;
-    }
     
     @JsonProperty("Message")
     public String getMessage() {
